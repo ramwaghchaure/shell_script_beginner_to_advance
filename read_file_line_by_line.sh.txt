@@ -1,0 +1,6 @@
+# read_file_line_by_line.sh
+
+#!/bin/bash
+while IFS=read -r line; do
+echo "line:$line"
+done < file.txt
